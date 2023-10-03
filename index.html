@@ -1,13 +1,354 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400;9..40,500;9..40,600;9..40,800;9..40,1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css" />
     <title>Portfólio - Anselmo Cambinza</title>
 </head>
+
 <body>
-    
+    <main>
+        <section class="container">
+            <section class="container_apresentation">
+                <div class="container_apresentation_rectangle"></div>
+                <div class="container_apresentation_content padding-container">
+                    <div class="container_apresentation_content_text">
+                        <div>
+                            <p class="container_apresentation_text_ola">
+                                Olá, Meu nome é:
+                            </p>
+                        </div>
+                        <div>
+                            <p class="container_apresentation_text_name">
+                                Anselmo Cambinza
+                            </p>
+                        </div>
+                        <div>
+                            <p class="container_apresentation_text_about_me">Interessado em desenvolvimento de software
+                                em geral, principalmente para web. Linguagens
+                                de programação em foco: JavaScript e Python. Analista de Dados, Business Intelligence,
+                                Pioneiro em DevOps.</p>
+                        </div>
+                        <div>
+                            <button class="btn btn_about_me">
+                                Sobre min
+                                <i class="ph-bold ph-user"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container_apresentation_content_pic">
+                    <div class="container_apresentation_content_pic-container">
+                        <div class="container_apresentation_content_pic-container-circle">
+                            <div class="container_apresentation_content_pic-container-circle-pic">
+                                <div class="container_apresentation_content_pic-container-circle-inner">
+                                    <img src="datasource/img/pic_revert.png" alt="Anselmo Cambinza">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="container_about_me padding-container">
+                <div class="container_about_me-header">Sobre min:</div>
+                <div class="container_about_me-title">
+                    <p>Seja muito bem-vindo(a) ao meu portfólio. Conheça a minha trajetória:</p>
+                </div>
+                <div class="container_about_me-body">
+                    <div class="container_about_me-body-number">
+                        6+
+                    </div>
+                    <div class="container_about_me-body-content">
+                        <p>Engenhario Informático, com mais de seis anos de experiência em programação e desenvolvimento
+                            de softwares. Nos últimos anos, tenho me dedicado incansavelmente à área de análise de
+                            dados.
+                        </p>
+                        <br>
+                        <p>
+                            Desenvolvimento de software, TDD, Clean Architecture, DDD, Design Partners e Docker
+                            Construção de Dashboards de análise, desde identificar, colectar, limpar, analisar e
+                            interpretar os dados.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="container_main_skills padding-container">
+                <div class="container_main_skills-header">Principais habilidades</div>
+                <div class="container_main_skills-body">
+                    <div class="main_skills main_skills-primary">
+                        <div class="main_skills-icon"><i class="ph-bold ph-chart-pie-slice"></i></div>
+                        <div class="main_skills-title">Visualização & <br>Análise de dados</div>
+                        <div class="main_skills-content">
+                            <p>Desenvolvimento de dashboards profissionais através de ferramentas como: Power BI,
+                                Tableau e Excel.</p>
+                        </div>
+                    </div>
+                    <div class="main_skills">
+                        <div class="main_skills-icon"><i class="ph-bold ph-palette"></i></div>
+                        <div class="main_skills-title">DESIGN DE DASHBOARDS</div>
+                        <div class="main_skills-content">Aplicação do Figma ou Power Point para elaborar layouts premium
+                            para projetos de Business Intelligence.</div>
+                    </div>
+                    <div class="main_skills">
+                        <div class="main_skills-icon"><i class="ph-bold ph-code"></i></div>
+                        <div class="main_skills-title">DESENVOLVIMENTO DE SOFTWARE</div>
+                        <div class="main_skills-content">Desenvolvimento de softwares, aplicando boas prática de TDD,
+                            DDD, Clean Architecture, Solid.</div>
+                    </div>
+                    <div class="main_skills">
+                        <div class="main_skills-icon"><i class="ph-bold ph-cube"></i></div>
+                        <div class="main_skills-title">ETL - DATA WAREHOUSE</div>
+                        <div class="main_skills-content">Extração, Transformação e Carregamento dos dados, usando a
+                            ferramenta Taled. Criação de Data Warehouse.</div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="container_projects_bi padding-container">
+                <div class="container_projects_bi-header">Explore alguns projetos que já desenvolvi com Power BI:
+                </div>
+                <div class="container_projects_bi-content">
+                    <div class="container_projects_bi-content-item">
+                        <div class="projects_bi-img"><img src="/datasource/projects_bi/vendas.png"
+                                alt="dashboard_vendas"></div>
+                        <div class="projects_bi-title">DASHBOARD <b>VENDAS</b></div>
+                        <div class="projects_bi-body">
+                            <div class="projects_bi-body-title">Objetivos principais e indicadores:</div>
+                            <div class="projects_bi-body-content">Vendas no setor de agronegócio. Destaca indicadores
+                                como: receita por sazonalidade, análise
+                                dos produtos mais vendidos, comparativo entre safras, volumes e exportações por país.
+                            </div>
+                        </div>
+                        <div class="projects_bi-link">
+                            <button class="btn">
+                                <i class="ph-bold ph-magnifying-glass"></i>
+                                Ver detalhes
+                            </button>
+                        </div>
+                    </div>
+                    <div class="container_projects_bi-content-item">
+                        <div class="projects_bi-img"><img src="/datasource/projects_bi/vendas.png"
+                                alt="dashboard_vendas"></div>
+                        <div class="projects_bi-title">DASHBOARD <b>VENDAS</b></div>
+                        <div class="projects_bi-body">
+                            <div class="projects_bi-body-title">Objetivos principais e indicadores:</div>
+                            <div class="projects_bi-body-content">Vendas no setor de agronegócio. Destaca indicadores
+                                como: receita por sazonalidade, análise
+                                dos produtos mais vendidos, comparativo entre safras, volumes e exportações por país.
+                            </div>
+                        </div>
+                        <div class="projects_bi-link">
+                            <button class="btn">
+                                <i class="ph-bold ph-magnifying-glass"></i>
+                                Ver detalhes
+                            </button>
+                        </div>
+                    </div>
+                    <div class="container_projects_bi-content-item">
+                        <div class="projects_bi-img"><img src="/datasource/projects_bi/vendas.png"
+                                alt="dashboard_vendas"></div>
+                        <div class="projects_bi-title">DASHBOARD <b>VENDAS</b></div>
+                        <div class="projects_bi-body">
+                            <div class="projects_bi-body-title">Objetivos principais e indicadores:</div>
+                            <div class="projects_bi-body-content">Vendas no setor de agronegócio. Destaca indicadores
+                                como: receita por sazonalidade, análise
+                                dos produtos mais vendidos, comparativo entre safras, volumes e exportações por país.
+                            </div>
+                        </div>
+                        <div class="projects_bi-link">
+                            <button class="btn">
+                                <i class="ph-bold ph-magnifying-glass"></i>
+                                Ver detalhes
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="container_projects_bi-content-item">
+                        <div class="projects_bi-img"><img src="/datasource/projects_bi/vendas.png"
+                                alt="dashboard_vendas"></div>
+                        <div class="projects_bi-title">DASHBOARD <b>VENDAS</b></div>
+                        <div class="projects_bi-body">
+                            <div class="projects_bi-body-title">Objetivos principais e indicadores:</div>
+                            <div class="projects_bi-body-content">Vendas no setor de agronegócio. Destaca indicadores
+                                como: receita por sazonalidade, análise
+                                dos produtos mais vendidos, comparativo entre safras, volumes e exportações por país.
+                            </div>
+                        </div>
+                        <div class="projects_bi-link">
+                            <button class="btn">
+                                <i class="ph-bold ph-magnifying-glass"></i>
+                                Ver detalhes
+                            </button>
+                        </div>
+                    </div>
+                    <div class="container_projects_bi-content-item">
+                        <div class="projects_bi-img"><img src="/datasource/projects_bi/vendas.png"
+                                alt="dashboard_vendas"></div>
+                        <div class="projects_bi-title">DASHBOARD <b>VENDAS</b></div>
+                        <div class="projects_bi-body">
+                            <div class="projects_bi-body-title">Objetivos principais e indicadores:</div>
+                            <div class="projects_bi-body-content">Vendas no setor de agronegócio. Destaca indicadores
+                                como: receita por sazonalidade, análise
+                                dos produtos mais vendidos, comparativo entre safras, volumes e exportações por país.
+                            </div>
+                        </div>
+                        <div class="projects_bi-link">
+                            <button class="btn">
+                                <i class="ph-bold ph-magnifying-glass"></i>
+                                Ver detalhes
+                            </button>
+                        </div>
+                    </div>
+                    <div class="container_projects_bi-content-item">
+                        <div class="projects_bi-img"><img src="/datasource/projects_bi/vendas.png"
+                                alt="dashboard_vendas"></div>
+                        <div class="projects_bi-title">DASHBOARD <b>VENDAS</b></div>
+                        <div class="projects_bi-body">
+                            <div class="projects_bi-body-title">Objetivos principais e indicadores:</div>
+                            <div class="projects_bi-body-content">Vendas no setor de agronegócio. Destaca indicadores
+                                como: receita por sazonalidade, análise
+                                dos produtos mais vendidos, comparativo entre safras, volumes e exportações por país.
+                            </div>
+                        </div>
+                        <div class="projects_bi-link">
+                            <button class="btn">
+                                <i class="ph-bold ph-magnifying-glass"></i>
+                                Ver detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="container_projects_soft padding-container">
+                <div class="container_projects_soft-header">Projetos de Desenvolvimento de Software:
+                </div>
+                <div class="container_projects_soft-content">
+                    <div class="container_projects_soft-content-item">
+                        <div class="projects_soft-img"><img src="/datasource/projects_soft/financeiro.png"
+                                alt="dashboard_vendas"></div>
+                        <div class="projects_soft-title">DASHBOARD <b>VENDAS</b></div>
+                        <div class="projects_soft-body">
+                            <div class="projects_soft-body-title">Objetivos principais e indicadores:</div>
+                            <div class="projects_soft-body-content">Vendas no setor de agronegócio. Destaca indicadores
+                                como: receita por sazonalidade, análise
+                                dos produtos mais vendidos, comparativo entre safras, volumes e exportações por país.
+                            </div>
+                        </div>
+                        <div class="projects_soft-link">
+                            <button class="btn">
+                                <i class="ph-bold ph-magnifying-glass"></i>
+                                Ver detalhes
+                            </button>
+                        </div>
+                    </div>
+                    <div class="container_projects_soft-content-item">
+                        <div class="projects_soft-img"><img src="/datasource/projects_soft/logistica.png"
+                                alt="dashboard_vendas"></div>
+                        <div class="projects_soft-title">DASHBOARD <b>VENDAS</b></div>
+                        <div class="projects_soft-body">
+                            <div class="projects_soft-body-title">Objetivos principais e indicadores:</div>
+                            <div class="projects_soft-body-content">Vendas no setor de agronegócio. Destaca indicadores
+                                como: receita por sazonalidade, análise
+                                dos produtos mais vendidos, comparativo entre safras, volumes e exportações por país.
+                            </div>
+                        </div>
+                        <div class="projects_soft-link">
+                            <button class="btn">
+                                <i class="ph-bold ph-magnifying-glass"></i>
+                                Ver detalhes
+                            </button>
+                        </div>
+                    </div>
+                    <div class="container_projects_soft-content-item">
+                        <div class="projects_soft-img"><img src="/datasource/projects_soft/vendas.png"
+                                alt="dashboard_vendas"></div>
+                        <div class="projects_soft-title">DASHBOARD <b>VENDAS</b></div>
+                        <div class="projects_soft-body">
+                            <div class="projects_soft-body-title">Objetivos principais e indicadores:</div>
+                            <div class="projects_soft-body-content">Vendas no setor de agronegócio. Destaca indicadores
+                                como: receita por sazonalidade, análise
+                                dos produtos mais vendidos, comparativo entre safras, volumes e exportações por país.
+                            </div>
+                        </div>
+                        <div class="projects_soft-link">
+                            <button class="btn">
+                                <i class="ph-bold ph-magnifying-glass"></i>
+                                Ver detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container_contacts padding-container">
+                <div class="container_contacts-left">
+                    <div class="container_contacts-item">
+                        <div class="container_contacts-item-icon"><i class="ph-bold ph-chart-pie-slice"></i></div>
+                        <div class="container_contacts-item-content">
+                            <div class="container_contacts-item-content_title">DESENVOLVIMENTO DE DASHBOARDS</div>
+                            <div class="container_contacts-item-content_content">Elaboração de dashboards personalizados
+                                no Power BI para suportar negócios (design ou projeto completo)</div>
+                        </div>
+                    </div>
+                    <div class="container_contacts-item">
+                        <div class="container_contacts-item-icon"><i class="ph-bold ph-code"></i></div>
+                        <div class="container_contacts-item-content">
+                            <div class="container_contacts-item-content_title">DESENVOLVIMENTO DE SOFTWARES</div>
+                            <div class="container_contacts-item-content_content">Elaboração de dashboards personalizados
+                                no Power BI para suportar negócios (design ou projeto completo)</div>
+                        </div>
+                    </div>
+                    <div class="container_contacts-item">
+                        <div class="container_contacts-item-icon"><i class="ph-bold ph-cube"></i></div>
+                        <div class="container_contacts-item-content">
+                            <div class="container_contacts-item-content_title">ETL - DATA WAREHOUSE</div>
+                            <div class="container_contacts-item-content_content">Elaboração de dashboards personalizados
+                                no Power BI para suportar negócios (design ou projeto completo)</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container_contacts-right">
+                    <div class="container_contacts-content">
+                        <div class="container_contacts-content-item">
+                            <div class="container_contacts-content-item-icon"><i class="ph-bold ph-github-logo"></i></div>
+                            <div class="container_contacts-content-item-text"><a href="#">/acambinza</a></div>
+                        </div>
+                        <div class="container_contacts-content-item">
+                            <div class="container_contacts-content-item-icon"><i class="ph-bold ph-linkedin-logo"></i></div>
+                            <div class="container_contacts-content-item-text"><a href="#">/anselmo-cambinza-967a96166/</a></div>
+                        </div>
+                        <div class="container_contacts-content-item">
+                            <div class="container_contacts-content-item-icon"><i class="ph-bold ph-envelope-simple"></i></div>
+                            <div class="container_contacts-content-item-text"><a href="#">acambinza@gmail.com</a></div>
+                        </div>
+                        <div class="container_contacts-content-item">
+                            <div class="container_contacts-content-item-icon"><i class="ph-bold ph-phone"></i></div>
+                            <div class="container_contacts-content-item-text"><a href="#">/+244 923 872 003 </a></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="container-footer">
+                <p>COPYRIGHT</i>&copy;2023</p>
+                <p>Buit by: Anselmo JC Cambinza</p>
+            </section>
+
+    </main>
+
+
     <script src="./script.js"></script>
 </body>
+
 </html>
